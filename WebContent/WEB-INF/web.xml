@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RemoveEmpresaServlet</display-name>
+    <servlet-name>RemoveEmpresaServlet</servlet-name>
+    <servlet-class>br.com.isagiongo.gerenciador.servlet.ListaEmpresasServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveEmpresaServlet</servlet-name>
+    <url-pattern>/removeEmpresa</url-pattern>
+  </servlet-mapping>
 </web-app>
